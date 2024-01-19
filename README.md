@@ -125,6 +125,13 @@ out = isSameFloat32Array( x, y );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-same-float64array`][@stdlib/assert/is-same-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and have the same values.</span>
+-   <span class="package-name">[`@stdlib/assert-is-same-value`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
+
 </section>
 
 <!-- /.related -->
@@ -201,6 +208,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-same-float64array]: https://github.com/stdlib-js/assert-is-same-float64array
+
+<!-- </related-links> -->
 
 </section>
 
