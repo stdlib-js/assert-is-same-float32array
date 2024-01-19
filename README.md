@@ -35,38 +35,30 @@ limitations under the License.
 
 > Test if two arguments are both [Float32Arrays][@stdlib/array/float32] and have the [same values][@stdlib/assert/is-same-value].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-same-float32array
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isSameFloat32Array = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isSameFloat32Array = require( 'path/to/vendor/umd/assert-is-same-float32array/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isSameFloat32Array;
-})();
-</script>
+var isSameFloat32Array = require( '@stdlib/assert-is-same-float32array' );
 ```
 
 #### isSameFloat32Array( v1, v2 )
@@ -105,14 +97,9 @@ bool = isSameFloat32Array( x, [ 1.0, 2.0 ] );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Float32Array = require( '@stdlib/array-float32' );
+var isSameFloat32Array = require( '@stdlib/assert-is-same-float32array' );
 
 var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
 var y = new Float32Array( [ 1.0, 2.0, 3.0 ] );
@@ -128,11 +115,6 @@ x = new Float32Array( [ NaN, NaN, NaN ] );
 y = new Float32Array( [ NaN, NaN, NaN ] );
 out = isSameFloat32Array( x, y );
 // returns true
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -142,6 +124,13 @@ out = isSameFloat32Array( x, y );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-is-same-float64array`][@stdlib/assert/is-same-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and have the same values.</span>
+-   <span class="package-name">[`@stdlib/assert-is-same-value`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 
 </section>
 
@@ -216,9 +205,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-same-float32array/main/LICENSE
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
-[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value/tree/umd
+[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert-is-same-value
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-same-float64array]: https://github.com/stdlib-js/assert-is-same-float64array
+
+<!-- </related-links> -->
 
 </section>
 
