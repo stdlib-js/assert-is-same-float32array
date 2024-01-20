@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isSameFloat32Array = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@umd/browser.js' )
+isSameFloat32Array = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var isSameFloat32Array = require( 'path/to/vendor/umd/assert-is-same-float32arra
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -110,7 +110,7 @@ bool = isSameFloat32Array( x, [ 1.0, 2.0 ] );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
