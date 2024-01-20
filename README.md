@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-same-float32array/tags). For example,
+
+```javascript
 import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@v0.1.0-esm/index.mjs';
 ```
 
@@ -88,7 +93,7 @@ bool = isSameFloat32Array( x, [ 1.0, 2.0 ] );
 <script type="module">
 
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@v0.1.0-esm/index.mjs';
+import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@esm/index.mjs';
 
 var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
 var y = new Float32Array( [ 1.0, 2.0, 3.0 ] );
