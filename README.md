@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@esm/index.mjs';
+import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@v0.2.2-esm/index.mjs';
 ```
 
 #### isSameFloat32Array( v1, v2 )
@@ -88,7 +88,7 @@ bool = isSameFloat32Array( x, [ 1.0, 2.0 ] );
 <script type="module">
 
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@esm/index.mjs';
+import isSameFloat32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-float32array@v0.2.2-esm/index.mjs';
 
 var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
 var y = new Float32Array( [ 1.0, 2.0, 3.0 ] );
